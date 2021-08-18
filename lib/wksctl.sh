@@ -19,7 +19,7 @@ wksctl_download() {
 }
 
 wksctl_version() {
-    local cmd="wksctl"
+    local cmd="/usr/local/bin/wksctl"
     local req="${1}"
     local version
 
