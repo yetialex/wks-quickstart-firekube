@@ -4,7 +4,7 @@ cluster:
 machines:
 - count: 2
   spec:
-    backend: docker
+    backend: ignite
     ignite:
       cpus: 2
       diskSize: 5GB
