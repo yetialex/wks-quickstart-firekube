@@ -52,7 +52,7 @@ items:
   spec:
     minReadySeconds: 3
     progressDeadlineSeconds: 60
-    replicas: 20
+    replicas: 2
     revisionHistoryLimit: 5
     selector:
       matchLabels:
